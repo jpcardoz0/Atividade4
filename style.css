@@ -1,7 +1,24 @@
-.destaque {
-    background-color:greenyellow;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
 }
 
-.paragrafo-div {
-    background-color: rgb(135, 227, 149);
+.grid-layout {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.titulo {
+    color: darkslategrey;
+    font-size: 40px;}
+
+.subtitulo {
+    background-color: lightgrey;
+    font-size: 16px;
+    padding: 6px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
 }
